@@ -20,7 +20,7 @@ A project to monitor temperature and humidity using an ESP32 and a DHT22 sensor.
 
 1. Clone this repository.
 2. Install the required libraries in your IDE.
-3. Set your WiFi credentials in `main.cpp`:
+3. Set your WiFi credentials in `config.h`:
    ```cpp
    const char* ssid     = "YOUR_SSID";
    const char* password = "YOUR_PASSWORD";
